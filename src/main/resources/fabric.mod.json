@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "ruby-tools",
+	"version": "${version}",
+	"name": "Ruby Tools",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/ruby-tools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.anatoliyk.ruby_tools.RubyToolsMod"
+		],
+		"fabric-datagen": [
+			"com.anatoliyk.ruby_tools.RubyToolsModDataGenerator"
+		]
+	},
+	"mixins": [
+		"ruby-tools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
