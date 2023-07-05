@@ -1,4 +1,11 @@
 {
   "item.ruby-tools.ruby": "Ruby",
-  "item.ruby-tools.ruby_sword": "Ruby Sword"
+  "item.ruby-tools.emerald_dust": "Emerald Dust",
+  "item.ruby-tools.ruby_sword": "Ruby Sword",
+  "item.ruby-tools.ruby_axe": "Ruby Axe",
+  "item.ruby-tools.ruby_pickaxe": "Ruby Pickaxe",
+  "item.ruby-tools.ruby_hoe": "Ruby Hoe",
+  "item.ruby-tools.ruby_shovel": "Ruby Shovel",
+  "block.ruby-tools.ruby_ore": "Ruby Ore",
+  "block.ruby-tools.deepslate_ruby_ore": "Deepslate Ruby Ore"
 }
