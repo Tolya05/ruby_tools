@@ -9,12 +9,13 @@ public class RubyMaterial implements ToolMaterial {
     @Override
     public int getDurability() {
 
-        return 500;
+        return 3500;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 2.5F;
+
+        return 6.7F;
     }
 
     @Override
@@ -26,18 +27,18 @@ public class RubyMaterial implements ToolMaterial {
     @Override
     public int getMiningLevel() {
 
-        return 1;
+        return 3;
     }
 
     @Override
     public int getEnchantability() {
 
-        return 10;
+        return 35;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
 
-        return null;
+        return Ingredient.ofItems(ModItem.Ruby);
     }
 }

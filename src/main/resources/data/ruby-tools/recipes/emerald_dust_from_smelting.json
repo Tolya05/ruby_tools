@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "emerald_dust",
+  "ingredient": {
+    "item": "minecraft:emerald"
+  },
+  "result": "ruby-tools:emerald_dust",
+  "count": 9,
+  "experience": 0.1,
+  "cookingtime": 200
+}
